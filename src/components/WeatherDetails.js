@@ -6,7 +6,7 @@ const WeatherDetails = ({ weatherData, loading }) => {
   return (
     <div>
       {loading ? (
-        <p>Loading data…</p>
+        <p>Loading data...</p>
       ) : (
             weatherData && (
                 <div className="weather-cards">
