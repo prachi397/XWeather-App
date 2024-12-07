@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 const SearchInput = ({handleSearchCity,handleCityChange,searchedCity}) => {
   return (
-    <div>
+    <div className="search-input">
       <input
         type="text"
         placeholder="Enter city name"
